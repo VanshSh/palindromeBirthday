@@ -4,7 +4,7 @@ This web app tells you if your birthday is palindrome or not.
 
 Also it gives you the nearest palindrome date.
 
-## [LIVE]()
+## [LIVE](https://palindromebirthdaybyvanshsharma.netlify.app/)
 
 ---
 

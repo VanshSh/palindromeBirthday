@@ -1,0 +1,132 @@
+:root {
+  --brand-color: #f46197;
+  --dark-color: #0a2342;
+  --mid-color: #90a0b3;
+  --light-color: #f9fbfd;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--light-color);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: var(--brand-color);
+  padding: 0 1em;
+}
+
+.header-img {
+  width: 100px;
+  margin-right: 0.5em;
+  border-radius: 10%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.links a {
+  margin: 0.5em;
+  background-color: var(--brand-color);
+  text-decoration: none;
+  color: var(--light-color);
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+.links a:hover {
+  background-color: var(--light-color);
+  color: var(--brand-color);
+}
+
+.details {
+  background-color: var(--mid-color);
+  width: 90%;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--light-color);
+}
+
+.date-input {
+  background-color: var(--light-color);
+  border: none;
+  border-radius: 10px;
+  padding: 0.5em;
+  font-size: 1.2em;
+  color: var(--brand-color);
+  width: 60%;
+  margin: 1.3em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date-input label {
+  margin-bottom: 1em;
+  font-weight: bolder;
+  font-size: larger;
+}
+.date {
+  width: 70%;
+  background-color: #d6dadf;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5em;
+  font-size: 1.2em;
+  color: var(--brand-color);
+  text-align: center;
+  font-weight: 600;
+}
+
+.date:focus {
+  outline: none;
+}
+
+.btn {
+  background-color: var(--dark-color);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: var(--light-color);
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+.btn:hover {
+  background-color: #90a0b3;
+  color: #0a2342;
+}
+
+.result {
+  background-color: var(--brand-color);
+  width: 50%;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: var(--light-color);
+  display: none;
+}
